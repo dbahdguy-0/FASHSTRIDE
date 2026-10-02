@@ -1,0 +1,1 @@
+import Link from 'next/link';export default function NotFound(){return <div className="wrap empty-state"><span className="eyebrow">404 / WRONG TURN</span><h1>We can’t find that pair.</h1><p>It may have moved, or the address may be off.</p><Link className="pill" href="/shop">Back to the collection</Link></div>}

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 900" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="90" y1="40" x2="820" y2="860" gradientUnits="userSpaceOnUse"><stop stop-color="#F1F0E9"/><stop offset="1" stop-color="#DAD9D0"/></linearGradient>
+    <linearGradient id="shoe" x1="230" y1="310" x2="700" y2="640" gradientUnits="userSpaceOnUse"><stop stop-color="#FFF"/><stop offset="1" stop-color="#C8C8C0"/></linearGradient>
+    <filter id="shadow" x="105" y="210" width="710" height="500" filterUnits="userSpaceOnUse"><feGaussianBlur stdDeviation="22"/></filter>
+  </defs>
+  <path fill="url(#bg)" d="M0 0h900v900H0z"/><circle cx="690" cy="205" r="128" fill="#D4F056" opacity=".72"/>
+  <ellipse cx="465" cy="651" fill="#6B6B61" opacity=".2" rx="295" ry="38" filter="url(#shadow)"/>
+  <path d="M203 526c54-14 102-47 139-92l47-57c13-15 37-17 52-3l93 85c25 22 53 36 85 43l72 16c40 9 68 38 68 72 0 25-21 44-49 44H234c-42 0-68-20-68-50 0-28 14-50 37-58Z" fill="url(#shoe)" stroke="#77786E" stroke-width="8" stroke-linejoin="round"/>
+  <path d="m340 440 76 79c20 21 49 34 79 37l175 17" stroke="#8B8C81" stroke-width="9" stroke-linecap="round"/><path d="m375 466 43-31m-18 53 45-34m-17 56 45-34" stroke="#85867C" stroke-width="8" stroke-linecap="round"/>
+  <path d="M179 585c96 21 225 23 387 10 80-7 143-4 185 8" stroke="#A7A89D" stroke-width="8" stroke-linecap="round"/><path d="M202 624h524" stroke="#22231F" stroke-width="12" stroke-linecap="round"/>
+  <text x="450" y="792" fill="#22231F" font-family="Arial,sans-serif" font-size="27" font-weight="700" letter-spacing="8" text-anchor="middle">FASHSTRIDE</text><text x="450" y="827" fill="#65665D" font-family="Arial,sans-serif" font-size="12" letter-spacing="4" text-anchor="middle">MADE FOR THE WAY YOU MOVE</text>
+</svg>

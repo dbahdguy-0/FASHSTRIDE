@@ -1,0 +1,1 @@
+import {NextResponse} from 'next/server';import {getProducts} from '@/lib/catalog';export async function GET(req:Request){const slug=new URL(req.url).searchParams.get('slug'),list=await getProducts();if(slug){const item=list.find(p=>p.slug===slug);return item?NextResponse.json(item):NextResponse.json({error:'Not found'},{status:404})}return NextResponse.json(list)}

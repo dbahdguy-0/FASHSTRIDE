@@ -1,0 +1,1 @@
+export function avatarInitials(fullName?:string|null,email?:string|null){const name=(fullName||email?.split('@')[0]||'').trim();if(!name)return '?';const parts=name.split(/[\s._-]+/).filter(Boolean);return (parts.length>1?`${parts[0][0]}${parts[parts.length-1][0]}`:parts[0].slice(0,2)).toLocaleUpperCase()}
